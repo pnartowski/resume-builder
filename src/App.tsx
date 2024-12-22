@@ -1,6 +1,5 @@
 import './App.scss';
 import jsYaml from 'js-yaml';
-// import dataFile from './data.yaml'
 import {TemplateA} from "./templates/templateA/TemplateA";
 import {useEffect, useState} from "react";
 import {ResumeData} from './model'
