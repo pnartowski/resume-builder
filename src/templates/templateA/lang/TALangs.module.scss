@@ -1,0 +1,21 @@
+@import "src/styles";
+
+.container {
+  padding-bottom: 20px;
+}
+
+.langBox {
+  display: flex;
+
+  .langName {
+    padding: 5px;
+    width: fit-content;
+  }
+
+  .langLevel {
+    padding: 5px;
+    width: fit-content;
+    white-space: nowrap;
+
+  }
+}

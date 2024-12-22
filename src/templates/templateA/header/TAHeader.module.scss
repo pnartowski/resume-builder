@@ -1,0 +1,36 @@
+@import "src/styles";
+
+.header {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+
+  .image {
+    width: $mainImageSize;
+    height: $mainImageSize;
+    border-radius: 50%;
+    background-image: url("../../../assets/main.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat ;
+    overflow: hidden;
+  }
+
+  .headerData {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: center;
+    color: $blue-color;
+
+    .name {
+      font-size: $fontSizeMainHeader;
+      font-weight: $fontWeightHeader;
+    }
+
+    .position {
+      font-size: $fontSizeHeader;
+      font-weight: 500;
+    }
+  }
+}

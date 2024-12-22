@@ -1,0 +1,33 @@
+@import "src/styles";
+
+.headerBox {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  column-gap: 10px;
+  padding-bottom: 10px;
+
+  .headerIcon {
+    width: 30px;
+    height: 30px;
+    background-color: $primary-color;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .icon {
+      margin: auto;
+      width: 16px;
+      height: 16px;
+      fill: white;
+
+    }
+  }
+
+  .headerTitle {
+    color: $primary-color;
+    font-size: $fontSizeHeader;
+    font-weight: 600;
+  }
+}

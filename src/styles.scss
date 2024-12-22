@@ -1,0 +1,32 @@
+$blue-color: #005c83;
+
+
+$primary-color: $blue-color;
+
+
+$fontSizeSmaller: 14px;
+$fontSizeNormal: 16px;
+$fontSizeHeader: 18px;
+$fontSizeMainHeader: 40px;
+
+$fontWeightHeader: 600;
+
+$mainImageSize: 125px;
+
+body {
+  font-size: $fontSizeNormal;
+}
+
+@media print {
+  body {
+    font-size: $fontSizeSmaller;
+  }
+}
+
+.sidePanelContainer {
+  padding-bottom: 30px;
+}
+
+@page {
+  margin: 10mm;
+}

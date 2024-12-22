@@ -1,0 +1,10 @@
+@import "src/styles";
+
+.hobbyBox {
+  @extend .sidePanelContainer;
+
+  .hobbyItem {
+    padding-bottom: 5px;
+  }
+
+}

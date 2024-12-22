@@ -1,0 +1,68 @@
+info:
+  name: Gandalf, Mithrandir
+  position: Principal Magician
+  email: gandalf@middleearth.com
+  phone: 1-800-MAGIC-01
+
+summary: As a Maiar, I possess inherent magical powers that are integral to my identity. I am known for my wisdom, leadership, and ability to inspire and guide others, particularly in times of crisis. My past experiences include leading the Fellowship of the Ring on a quest to destroy the One Ring, showcasing my strategic thinking and combat skills against formidable foes like Sauron and the Balrog.
+
+experience:
+  - name: Commander during the Battle of Minas Tirith
+    from: 3019 TA
+    to: 3019 TA
+    scope:
+      - Led the defense of Minas Tirith during the siege by Sauron's forces.
+      - Participated in key clashes and collaborated with other leaders, such as Aragorn and Éomer.
+  - name : Defender of the Shire
+    from: 3001 TA
+    to: 3018 TA
+    scope:
+      - Protected Frodo Baggins and the Shire from threats posed by Sauron.
+      - Regular visits to the Shire and assistance in organizing the journey to Rivendell.
+  - name: Advisor to Thorin Oakenshield
+    from: 2941 TA
+    to: 2941 TA
+    scope:
+      - Assisted in organizing the expedition to the Lonely Mountain.
+      - Participated in the journey with Thorin's Company, helping them in difficult situations, such as fighting trolls and escaping from goblins.
+  - name: Envoy of the Valar in Middle-earth
+    from: 1000 TA
+    to: 3019 TA
+    scope:
+      - Sent to Middle-earth to assist in the fight against Sauron.
+      - Supported various races by organizing the White Council and participating in key battles, such as the Battle of the Pelennor Fields.
+  - name: Wizard in Aman
+    scope:
+      - As one of the Maiar, I was responsible for teaching and supporting the Elves and other beings in Aman.
+      - Learned patience and love for all creatures inhabiting Arda.
+education:
+  - school: Training in Aman
+    title: Education under the guidance of the Valar and other wise beings.
+skills:
+  - Leadership
+  - Military Strategy
+  - Planning and executing defensive actions.
+  - High-level magical abilities
+  - Creating illusions
+  - Manipulating fire
+  - Negotiation
+  - Skillful mediation between different races and cultures.
+langs:
+  - name: Quenya
+    level: native
+  - name: Sindarin
+    level: fluent
+  - name: Adûnaic
+    level: fluent
+  - name: Westron
+    level: fluent
+  - name: Khuzdul
+    level: good
+  - name: Orcish
+    level: basic
+hobby:
+  - Firework Creation
+  - Wandering through Middle-earth
+  - Pipe Smoking
+  - Learning and Research
+  - Gathering with Friends

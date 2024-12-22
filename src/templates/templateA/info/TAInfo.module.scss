@@ -1,0 +1,14 @@
+@import "src/styles";
+
+.personalInfo {
+  @extend .sidePanelContainer;
+
+  .label {
+    font-weight: 600;
+    padding-bottom: 2px;
+  }
+
+  .value {
+    padding-bottom: 10px;
+  }
+}

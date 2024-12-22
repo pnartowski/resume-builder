@@ -1,0 +1,51 @@
+@import "src/styles";
+@import "../../templateStyles";
+
+$pointerRadius: 11px;
+
+.sectionRow {
+  position: relative;
+  margin-top: 15px;
+  page-break-inside: avoid;
+
+  .row {
+    display: flex;
+
+    .time {
+      width: $timeSectionWith;
+    }
+
+    .data {
+      width: 100%;
+      margin: 0 20px 0 30px;
+    }
+  }
+
+  .pointerBox {
+    position: absolute;
+    top: 5px;
+
+    .pointer {
+      border-radius: 50%;
+
+      margin-left: $timeSectionWith - $pointerRadius/2 - 1px;
+      background-color: $primary-color;
+      width: $pointerRadius;
+      height: $pointerRadius;
+    }
+  }
+
+  ul {
+    margin-block-start: 5px;
+    padding-inline-start: 0px;
+    list-style: none;
+
+    li {
+      &:before {
+        content: '\2022';
+        font-size: 14px;
+        margin-right: 12px;
+      }
+    }
+  }
+}

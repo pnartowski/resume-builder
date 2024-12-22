@@ -1,0 +1,10 @@
+@import "src/styles";
+
+.skillBox {
+  @extend .sidePanelContainer;
+
+  .skillItem {
+    padding-bottom: 6px;
+  }
+
+}

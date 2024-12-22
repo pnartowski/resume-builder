@@ -1,0 +1,14 @@
+
+.skillWrapper {
+  display: flex;
+  column-gap: 2px;
+
+  .skill {
+    font-size: 12px;
+    font-weight: 600;
+    padding: 2px 5px;
+    border-radius: 4px;
+    border: 2px ridge rgba(121, 121, 122, 0.7);
+    box-shadow: 1px 1px 3px rgba(121, 121, 122, 0.7);
+  }
+}

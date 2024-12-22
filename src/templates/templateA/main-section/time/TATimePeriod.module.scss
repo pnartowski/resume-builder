@@ -1,0 +1,26 @@
+@import "src/styles";
+
+$leadingDotRadius: 2px;
+$middleDotRadius: 4px;
+
+.timePeriodBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-size: $fontSizeSmaller;
+
+  .dot {
+    margin: 1px;
+    width: $leadingDotRadius;
+    height: $leadingDotRadius;
+    border-radius: 50%;
+    background-color: #d3d3d3;
+  }
+
+  .dot:nth-child(3) {
+    width: $middleDotRadius;
+    height: $middleDotRadius;
+  }
+}

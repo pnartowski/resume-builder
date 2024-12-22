@@ -1,0 +1,18 @@
+@import "src/styles";
+@import "../templateStyles";
+
+.sectionImage {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-color: $primary-color;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .icon {
+    width: 16px;
+    height: 16px;
+    fill: white;
+  }
+}
