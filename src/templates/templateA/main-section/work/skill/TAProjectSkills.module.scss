@@ -2,6 +2,7 @@
 .skillWrapper {
   display: flex;
   column-gap: 2px;
+  flex-wrap: wrap;
 
   .skill {
     font-size: 12px;
